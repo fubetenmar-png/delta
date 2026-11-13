@@ -7,9 +7,7 @@
     "delta": "./cli.js"
   },
   "scripts": {
-    "start": "node cli.js",
-    "deploy": "wrangler deploy",
-    "preview": "wrangler dev"
+    "start": "node cli.js"
   },
   "keywords": [
     "diff",
@@ -22,8 +20,5 @@
   "license": "MIT",
   "engines": {
     "node": ">=18"
-  },
-  "devDependencies": {
-    "wrangler": "^4.156.2"
   }
 }

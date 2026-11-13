@@ -9,3 +9,7 @@ npm-debug.log*
 !.dev.vars.example
 .env*
 !.env.example
+
+# landing page (deployed to Cloudflare Pages; not part of the CLI product)
+/site/
+wrangler.jsonc
